@@ -1,11 +1,16 @@
+import '@styles/main.module.scss';
+import HomePage from '@components/HomePage/HomePage';
+import Info from './components/Info/Info';
 
-import './App.css'
 
 function App() {
-
-  return (
-    <div>ecommerse</div>
-  )
+    return (
+        <>
+            <HomePage/>
+            <Info/>
+            
+        </>
+    );
 }
 
-export default App
+export default App;

@@ -1,0 +1,18 @@
+@use '@styles/mixin.module' as mix;
+@use '@styles/variable.module' as var;
+
+.btn {
+    @include mix.btn(176px, 42px, 3px, var.$primary_color);
+    color: var.$white_color;
+    font-size: 14px;
+    font-weight: 300;
+    // padding: 13px 45px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        color: var.$primary_color;
+        border: 1px solid var.$primary_color;
+        transition: background-color 300ms;
+    }
+}
