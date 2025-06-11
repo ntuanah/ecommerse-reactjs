@@ -1,0 +1,15 @@
+@use '@styles/mixin.module' as mix;
+@use '@styles/variable.module' as var;
+
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 150px;
+}
+
+.title{
+    font-size: 18px;
+    color: var.$secondary_color
+}
+
