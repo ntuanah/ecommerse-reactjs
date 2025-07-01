@@ -1,0 +1,38 @@
+@use '@styles/mixin.module' as mix;
+@use '@styles/variable.module' as var;
+
+.container {
+    padding: 30px 20px 0px 20px;
+
+    .title {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .boxRemmeberMe {
+        margin-bottom: 30px;
+
+        input {
+            margin-right: 10px;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .btn {
+        margin-left: 85px;
+    }
+
+    .lostPassword {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
